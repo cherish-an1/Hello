@@ -1,0 +1,114 @@
+body { 
+    background-color: white; 
+}
+header {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 500;
+    top: 2;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+}
+.head {
+    height: 50px;
+}
+.logo {
+    width: 90%;
+    margin-left: 2px;
+    margin-top: 15px;
+}
+.one h1 {
+    text-shadow: black;
+    font-style: italic;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    transition: 1.0s;
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+    color: brown;
+    transition: 0.9s;
+    font-size: 30px;
+    margin: 10px;
+}
+.openbar {
+    margin-top: 20px;
+    font-size: 25px
+}
+.sidebutton1 a {
+    padding: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sidebutton1 a img {
+    width: 15px;
+    height: 15px;
+}
+.sidebutton1 a img:hover{
+    padding: 2px;
+}
+.sidebutton1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sidebutton2 a {
+    display: block;
+    margin: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+.sidebutton2 a:hover {
+    color: thistle;
+    padding: 10px;
+    border-bottom: 1px solid orchid;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 440px;
+    display: block;
+    margin-top: -19px;
+}
+.five h1 {
+    margin-left: 20px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.five p {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.five a {
+    margin: 15px;
+}
+footer a img {
+    width: 20px;
+    height: 20px;
+}
+footer a img:hover {
+    color: orchid;
+    padding: 5px;
+}
+.six {
+    margin-left: 20px;
+    margin-top: 100px;
+    border-top: 1px solid orchid;
+    padding-top: 40px;
+    margin-right: 30px;
+}

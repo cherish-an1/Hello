@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact us</title>
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="head"></div>
+            <div class="logo">
+                <img src="NG 2.png" width="30px" height="30px">
+            </div>
+            <!-- Sidebar (hidden by default) -->
+                <div class="sidebar" style="display: none; cursor: pointer;" id="mysidebar">
+                    <span class="closebar" style="font-size: 30px;" onclick="w3_close()"> &times;</span>
+                <div class="sidebuttons">
+                        <div class="sidebutton2">
+                    <img src="ngozi.jpg" width="100px" height="100px">
+                    <a href="homepage.html" class="button-item">Home</a>
+                    <a href="About.html" class="button-item">About</a>
+                    <a href="portfolio.html" class="button-item">Portfolio</a>
+                    <a href="contact.html" class="button-item">Contact</a>
+                       </div>
+                       <div class="sidebutton1" style="display: flex;">
+                        <a href="https://twitter.com/Anozie_cherish"><img src="twitter 2.png"></a>
+                        <a href="https://facebook.com/Anozie-ngozi"><img src="facebook 2.png"></a>
+                        <a href="https://instagram.com/cherishh_an"><img src="instagram 2.png"></a>
+                        <a href="https://github.com/cherish-an1"><img src="github.png"></a>
+                        <a href="https://linkedin.com/in/ngozi-anozie-a3a812185"><img src="linkden 2.png"></a>
+                        <a href="https://eanozie98@gmail.com"><img src="email 2.png"></a>
+                        <a href="#"><img src="sfjghu"></a>
+                    </div>
+                </div>
+                </div>
+            <!-- Top Menu -->
+                <div class="sidebarr">
+                   <span class="openbar" style="position: fixed; margin-top: 5px; font-size: 25px; cursor: pointer;" onclick="w3_open()" id="mysidebar">&#9776</span>
+                </div>
+        </header>
+
+        <script>
+            function w3_open() {
+                document.getElementById ("mysidebar").style.display = "block";
+                document.getElementById ("mysidebar").style.width = "100%" ;
+            }
+            function w3_close() {
+                document.getElementById ("mysidebar").style.display = "none" ;
+            }
+        </script>
+        <div class="background">
+            <h5>CONTACT US</h6>
+            <h1>CONTACT ME</h1>
+        </div>
+
+        <div class="page-content">
+            <h2>Get in touch</h2>
+            <p>We would like the prospect of creating magic together! <br>Just reach out below.</p>
+            <div class="info">
+                
+                <h4>EMAIL:</h4>
+                <p>anoziengozi123@gmail.com</p>
+                <h4>PHONE:</h4>
+                <p>07069268138, 08023882698.</p>
+            </div>
+            <div class="info-form">
+                    <h3>Your Message</h3>
+                    <label for="name" style="font-weight: bold;">Name</label><br>
+                    <input type="text" id="name" value="Name">
+                    <br>
+                    <label for="email" style="font-weight: bold;">Email</label><br>
+                    <input type="text" id="email" value="Email">
+                    <br>
+                    <label for="message" style="font-weight:bold;">Message</label><br>
+                    <textarea name="message" style="width: 422px; height: 100px; border-radius: 5px; margin-top: 10px; padding: 12px 6px;"></textarea>
+                    <br>
+                    <input type="submit" value="send">
+            </div>
+        </div>
+    </body>
+</html>

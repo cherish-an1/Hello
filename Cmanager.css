@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+    color: teal;
+}
+section ol li {
+    margin: 10px;
+}
+.addnote ol li {
+    margin: 10px;
+}
+footer {
+}

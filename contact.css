@@ -1,0 +1,140 @@
+body { 
+    background-color: white;
+    height: 100%;
+}
+header {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 500;
+    top: 2;
+    width: 100%;
+    height: 40px;
+    margin-top: -22px;
+}
+.head {
+    height: 50px;
+}
+.logo {
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.one h1 {
+    text-shadow: black;
+    font-style: italic;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    transition: 4.0s ease-in-out;
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+    color: brown;
+    transition: 0.9s;
+    font-size: 30px;
+    margin: 10px;
+}
+.sidebutton1 a {
+    padding: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sidebutton1 a img {
+    width: 15px;
+    height: 15px;
+}
+.sidebutton1 a img:hover{
+    padding: 5px;
+}
+.sidebutton1 {
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sidebutton2 a {
+    display: block;
+    margin: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+.sidebutton2 a:hover {
+    color: thistle;
+    padding: 10px;
+}
+.background {
+    height: 315px;
+    background-color: violet;
+    background-image: url(contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+}
+.background h1 {
+    text-align: center;
+    margin-top: 220px;
+    color: white;
+}
+.page-content {
+
+}
+.page-content h2 {
+    color: gray;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 12px;
+}
+.page-content p {
+    text-align: center;
+
+}
+.info {
+    border-top: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+.info p {
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black
+}
+input[type=submit] {
+    background-color: black;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+    width: 436px;
+    margin-bottom: 30px;
+}
+input[type=submit]:hover {
+    background-color: gray;
+}
+

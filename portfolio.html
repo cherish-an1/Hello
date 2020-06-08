@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <div class="head"></div>
+            <div class="logo">
+                <img src="NG 2.png" width="30px" height="30px">
+            </div>
+            <!-- Sidebar (hidden by default) -->
+                <div class="sidebar" style="display: none; cursor: pointer;" id="mysidebar">
+                    <span class="closebar" style="font-size: 30px;" onclick="w3_close()"> &times;</span>
+                <div class="sidebuttons">
+                        <div class="sidebutton2">
+                    <img src="ngozi.jpg" width="100px" height="100px">
+                    <a href="homepage.html" class="button-item">Home</a>
+                    <a href="About.html" class="button-item">About</a>
+                    <a href="portfolio.html" class="button-item">Portfolio</a>
+                    <a href="contact.html" class="button-item">Contact</a>
+                       </div>
+                       <div class="sidebutton1" style="display: flex;">
+                        <a href="https://twitter.com/Anozie_cherish"><img src="twitter 2.png"></a>
+                        <a href="https://facebook.com/Anozie-ngozi"><img src="facebook 2.png"></a>
+                        <a href="https://instagram.com/cherishh_an"><img src="instagram 2.png"></a>
+                        <a href="https://github.com/cherish-an1"><img src="github.png"></a>
+                        <a href="https://linkedin.com/in/ngozi-anozie-a3a812185"><img src="linkden 2.png"></a>
+                        <a href="https://eanozie98@gmail.com"><img src="email 2.png"></a>
+                        <a href="#"><img src="sfjghu"></a>
+                    </div>
+                </div>
+                </div>
+            <!-- Top Menu -->
+                <div class="sidebarr">
+                   <span class="openbar" style="position: fixed; margin-top: 5px; font-size: 25px; cursor: pointer;" onclick="w3_open()" id="mysidebar">&#9776</span>
+                </div>
+            
+                </header>
+
+                <section>
+                    <h2>hello</h2>
+                    <p><a href="Cmanager.html">Contact and note manager</a> - a mobile program that enables user easily store information such as name, address, phone number and also helps your store information about a particular entity.</p>
+                    <br>
+                    <br>
+                    <!--
+                    <p><a href="front-end.html">FAQ on Front-End Development</a>- guide for getting started with front-end development. Thinking of beginning a career in web development? All the basic information on getting started is right here, while not hop on it. </p>
+                </section>
+            -->
+
+
+            
+                <!--
+                <section class="container">
+                    <img src="Contact Note Manager.png" class="image" width="100%">
+                    <div class="middle">
+                        <a href="Cmanager.html">Contact and note Manager</a>
+                    </div>
+                </section>
+                <section class="container2">
+                    <img src="front-end.png" class="image" width=" 100%">
+                    <div class="middle2">
+                        <a  href="">FAQ ON FRONT-END WEB DEVELOPMENT</a>
+                    </div>
+                </section>
+            -->
+        <script>
+            function w3_open() {
+                document.getElementById ("mysidebar").style.display = "block";
+                document.getElementById ("mysidebar").style.width = "100%" ;
+            }
+            function w3_close() {
+                document.getElementById ("mysidebar").style.display = "none" ;
+            }
+        </script>
+    </body>
+</html>
